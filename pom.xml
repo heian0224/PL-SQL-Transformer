@@ -14,6 +14,7 @@
         <antlr4test-maven-plugin.version>1.21</antlr4test-maven-plugin.version>
         <antlr.version>4.10.1</antlr.version>
         <junit.version>4.13.2</junit.version>
+        <flink.version>1.14.0</flink.version>
     </properties>
     <dependencies>
         <dependency>
@@ -36,8 +37,8 @@
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-java</artifactId>
-            <version>1.7.0</version>
+            <artifactId>flink-streaming-java_2.11</artifactId>
+            <version>${flink.version}</version>
         </dependency>
 
         <dependency>
